@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.proj2.PlayWithMoviesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-24T16:20:09" hostname="BOREL18" time="0.097">
+  <properties/>
+  <testcase name="testEx02()" classname="agh.ii.prinjava.proj2.PlayWithMoviesTest" time="0.097"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

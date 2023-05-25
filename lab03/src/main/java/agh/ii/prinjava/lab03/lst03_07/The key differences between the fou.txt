@@ -1,0 +1,6 @@
+The key differences between the four implementations of the Set interface are as follows:
+
+    HashSet: stores elements in a hash table, which provides constant-time performance for basic operations like add, remove, and contains, assuming that the hash function disperses the elements properly among the buckets.
+    TreeSet: stores elements in a sorted tree structure (a Red-Black tree), which provides logarithmic-time performance for most operations. The elements are ordered using their natural ordering or by a Comparator provided at set creation time.
+    LinkedHashSet: stores elements in a hash table with a linked list running through it, which provides insertion-order iteration over the elements. This implementation spares its clients from the unspecified, generally chaotic ordering provided by HashSet.
+    EnumSet: specialized Set implementation for use with enum types. All of the elements in an enum set must come from a single enum type that is specified when the set is created.
